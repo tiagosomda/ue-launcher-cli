@@ -213,7 +213,7 @@ function Update-UEInstallations {
 }
 
 function Select-UEProject {
-  $files = Get-ChildItem *.uproject -Recurse
+  $files = Get-ChildItem *.uproject -Recurse -Depth 3
   if($files.Count -eq 1)
   {
     $projectFilePath = $files[0].FullName
