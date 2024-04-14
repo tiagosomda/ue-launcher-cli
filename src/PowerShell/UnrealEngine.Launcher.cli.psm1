@@ -8,12 +8,12 @@
 #
 # Example:
 # "5.3" = @{
-#       editor = "<SystemDrive Path>C:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor.exe";
+#       editor = "C:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor.exe";
 #       buildTool = "C:\Program Files\Epic Games\UE_5.3\Engine\Build\BatchFiles\Build.bat";
-#       engineAssociation = "5.3"
+#       engineAssociation = "537FD5A8-3DAE-4FFC-B347-ACBE0C46D47D"
 #     },
 # "5.4" = @{
-#       editor = "<SystemDrive Path>C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor.exe";
+#       editor = "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor.exe";
 #       buildTool = "C:\Program Files\Epic Games\UE_5.4\Engine\Build\BatchFiles\Build.bat";
 #       engineAssociation = "{9B73BBCE-BE90-4478-B6D4-6EF3325BDD16}"
 #     }
@@ -260,7 +260,6 @@ function Select-UEProject {
       }
 
       $ueInfo = Get-UEEditorInfo $engineAssociation
-
       $selectedProject = @{ 
         shortNames = @();
         path = $projectFilePath;
