@@ -13,7 +13,8 @@ It has a couple of useful functions
   - `-s` opens visual studio solution
   - `-ls` lists known projects
 
-![examples of usage](.\res\ue-launcher-cli-examples.gif)
+
+![examples of usage](res/ue-launcher-cli-examples.gif)
 
 
 ## Usage in $profile
