@@ -1,5 +1,5 @@
 # Unreal Engine Launcher CLI
-I created this module to help make it easier to regenerate unreal engine projects.  
+This module helps me with making it easier to open, close and regenerate unreal engine projects via command lines.  
 
 ## Usage:
 It has a couple of useful functions
@@ -12,6 +12,9 @@ It has a couple of useful functions
   - `-u` opens unreal project
   - `-s` opens visual studio solution
   - `-ls` lists known projects
+
+![examples of usage](.\res\ue-launcher-cli-examples.gif)
+
 
 ## Usage in $profile
 I have it as part of my powershell `$profile`, here is how I got it setup
